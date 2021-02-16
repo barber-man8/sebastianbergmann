@@ -69,7 +69,7 @@ final class TestBuilder
         } // TestCase($name, $data)
         else {
             try {
-                $data = TestUtil::getProvidedData(
+                $data = TestUtil::providedData(
                     $className,
                     $methodName
                 );
